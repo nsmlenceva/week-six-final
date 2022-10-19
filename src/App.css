@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.descr {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cont {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #f3f3f3;
+}
+.link {
+  padding: 10px 40px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.nav{
+  margin: 20px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px;
+  background-color: #f3f3f3;
+}
+.showButton {
+  border: none;
+  background-color: white;
+  color: gray;
+  font-family: 'Open Sans', sans-serif;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product-card {
+  padding: 2%;
+  width: 400px;
+}
+.chooseButton {
+  border: none;
+  padding: 10px;
+  margin: 0px 10px 0px 10px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+.one {
+  background-color: whitesmoke;
+  color: black;
+}
+.two {
+  background-color: black;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.three {
+  background-color: rgb(141, 176, 141);
+  color: white;
+}
+.fotoAbout {
+  margin: 7px 20px 0px 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.textAbout {
+  margin: 7px;
+  font-family: 'Open Sans', sans-serif;
+  width: 500px;
+  text-align: justify;
+  line-height: 200%;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  line-height: 150%;
+}
+.contContact {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 50px;
+}
+.line {
+  border-bottom: 1px solid black;
 }
