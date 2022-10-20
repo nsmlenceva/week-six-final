@@ -4,7 +4,7 @@ import { useState } from 'react';
 function Home() {
 
     const [item, setItem] = useState(0);
-    const {id, image} = data[item];
+    const {image} = data[item];
     
     const previousItem = () => {
         setItem (pict => {
@@ -29,7 +29,7 @@ function Home() {
     return (
         <div >
             <div className='container'>
-                <img src={image} width = "800px" height="500px" alt="picture"/>
+                <img src={image} width = "800px" height="500px" alt="pict"/>
             </div>
             <div className='cont btn'>
                 <button className='nav' onClick= {previousItem} >Prev</button>
