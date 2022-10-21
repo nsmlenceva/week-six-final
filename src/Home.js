@@ -29,7 +29,7 @@ function Home() {
     return (
         <div >
             <div className='container'>
-                <img src={image} width = "800px" height="500px" alt="pict"/>
+                <img className='imgHome' src={image} alt="pict"/>
             </div>
             <div className='cont btn'>
                 <button className='nav' onClick= {previousItem} >Prev</button>

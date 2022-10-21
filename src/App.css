@@ -77,6 +77,8 @@ nav {
 }
 .fotoAbout {
   margin: 7px 20px 0px 0px;
+  width: 450px;
+  height: 100%;
 }
 
 .textAbout {
@@ -98,4 +100,30 @@ p{
 }
 .line {
   border-bottom: 1px solid black;
+}
+.imgHome {
+  width: 800px; 
+  height: 500px;
+}
+
+@media all and (max-width: 800px)  {
+  .imgHome {
+    width: 500px; 
+    height: 300px;
+  }
+  .fotoAbout {
+    width: 300px;
+  }
+}
+  @media all and (max-width: 500px)  {
+    .imgHome {
+      width: 300px; 
+      height: 200px;
+  }
+  .fotoAbout {
+    width: 200px;
+  }
+  .link {
+    padding: 10px 20px;
+  }
 }
